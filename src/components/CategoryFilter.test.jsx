@@ -63,7 +63,7 @@ describe('CategoryFilter component', () => {
     await user.click(screen.getByRole('button', { name: '#react' }));
 
     // assert
-    expect(onSelect).toHaveBeenCalledWith('react');
+    expect(onSelect).toHaveBeenCalledWith('reactjs');
   });
 
   it('harus memanggil onSelect dengan string kosong ketika tombol "Semua" ditekan', async () => {
